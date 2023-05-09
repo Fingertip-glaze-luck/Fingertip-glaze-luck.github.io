@@ -3174,9 +3174,9 @@ if (localStorage.getItem("blogbg") != undefined) {
 } else {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/bg.jpg);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
+    --darkmode-bg:url(https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/bg.jpg);
     --mobileday-bg: url(https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/bg.jpg);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --mobilenight-bg: url(https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/bg.jpg);
   }`;
 }
 // 切换背景主函数
