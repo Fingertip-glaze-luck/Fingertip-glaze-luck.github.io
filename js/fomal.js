@@ -1113,7 +1113,7 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("09/05/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
@@ -3174,7 +3174,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
+    --default-bg: url(https://github.com/Fingertip-glaze-luck/tuchuang/blob/d76c75e656927fdd7daf0946d83e91ef5c61c734/imgs/bg.jpg);
     --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
     --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
