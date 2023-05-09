@@ -3174,7 +3174,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://github.com/Fingertip-glaze-luck/tuchuang/blob/d76c75e656927fdd7daf0946d83e91ef5c61c734/imgs/bg.jpg);
+    --default-bg: url(https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/bg.jpg);
     --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
     --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
