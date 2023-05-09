@@ -3176,7 +3176,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/bg.jpg);
     --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
+    --mobileday-bg: url(https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/bg.jpg);
     --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
   }`;
 }
