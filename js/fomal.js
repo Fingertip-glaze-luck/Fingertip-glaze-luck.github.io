@@ -1286,8 +1286,8 @@ function share_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "成功复制分享信息🎉",
-          message: "您现在可以通过粘贴直接跟小伙伴分享了！",
+          title: "成功复制信息🎉",
+          message: "您现在可以通过粘贴分享了！",
           position: 'top-left',
           offset: 50,
           showClose: true,
@@ -1298,7 +1298,7 @@ function share_() {
       }
     })
   } catch (err) {
-    console.error('复制失败！', err);
+    console.error('不好啦，复制失败！', err);
   }
   // new ClipboardJS(".share", { text: function () { return '标题：' + document.title + '\n链接：' + url } });
   // btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")
