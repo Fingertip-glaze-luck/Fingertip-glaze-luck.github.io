@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>linux查找和压缩（8）</title>
+      <link href="/posts/2013454d.html"/>
+      <url>/posts/2013454d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="2-压缩"><a href="#2-压缩" class="headerlink" title="2.压缩"></a>2.压缩</h1><h2 id="2-1-tar命令"><a href="#2-1-tar命令" class="headerlink" title="2.1 tar命令"></a>2.1 tar命令</h2><div class="tabs" id="分栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#分栏-1">示例源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="分栏-1"><p>tar + 选项 + 包名 + 对象（目的地）<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -f 1.tar /etc</span><br></pre></td></tr></table></figure></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机运维 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 外挂标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>

@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>指尖琉璃的幸运</title>
+  <title>指尖琉璃の幸运</title>
   
   
   <link href="https://limerence-fxy.top/atom.xml" rel="self"/>
   
   <link href="https://limerence-fxy.top/"/>
-  <updated>2022-10-23T14:00:00.000Z</updated>
+  <updated>2023-05-21T08:18:00.000Z</updated>
   <id>https://limerence-fxy.top/</id>
   
   <author>
-    <name>指尖琉璃的幸运</name>
+    <name>指尖琉璃の幸运</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux查找和压缩（8）</title>
+    <link href="https://limerence-fxy.top/posts/2013454d.html"/>
+    <id>https://limerence-fxy.top/posts/2013454d.html</id>
+    <published>2023-05-21T08:18:00.000Z</published>
+    <updated>2023-05-21T08:18:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="2-压缩"><a href="#2-压缩" class="headerlink" title="2.压缩"></a>2.压缩</h1><h2 id="2-1-tar命令"><a href="#2-1-tar命令" class="headerlink" title="2.1 tar命令"></a>2.1 tar命令</h2><div class="tabs" id="分栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#分栏-1">示例源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="分栏-1"><p>tar + 选项 + 包名 + 对象（目的地）<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -f 1.tar /etc</span><br></pre></td></tr></table></figure></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+    
+    
+    <summary type="html">🥧云计算</summary>
+    
+    
+    
+    <category term="计算机运维" scheme="https://limerence-fxy.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="Markdown" scheme="https://limerence-fxy.top/tags/Markdown/"/>
+    
+    <category term="外挂标签" scheme="https://limerence-fxy.top/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
