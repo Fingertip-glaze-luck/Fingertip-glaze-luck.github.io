@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://limerence-fxy.top/box/gallery/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://limerence-fxy.top/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -56,7 +47,16 @@
   </url>
   
   <url>
-    <loc>https://limerence-fxy.top/life/movies/index.html</loc>
+    <loc>https://limerence-fxy.top/box/animation/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://limerence-fxy.top/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -66,15 +66,6 @@
   
   <url>
     <loc>https://limerence-fxy.top/box/nav/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://limerence-fxy.top/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -101,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://limerence-fxy.top/site/census/index.html</loc>
+    <loc>https://limerence-fxy.top/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -119,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://limerence-fxy.top/social/link/index.html</loc>
+    <loc>https://limerence-fxy.top/personal/love/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -137,6 +128,15 @@
   </url>
   
   <url>
+    <loc>https://limerence-fxy.top/social/link/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://limerence-fxy.top/site/time/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://limerence-fxy.top/personal/love/index.html</loc>
+    <loc>https://limerence-fxy.top/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -189,14 +189,14 @@
 
   
   <url>
-    <loc>https://limerence-fxy.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BF%90%E7%BB%B4/</loc>
+    <loc>https://limerence-fxy.top/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2023-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://limerence-fxy.top/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <loc>https://limerence-fxy.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BF%90%E7%BB%B4/</loc>
     <lastmod>2023-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
