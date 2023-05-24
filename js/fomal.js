@@ -2804,7 +2804,7 @@ function createtime() {
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
       ? `<img class='boardsign' src='https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/%E6%91%B8%E9%B1%BC%E6%91%B8%E9%B1%BC.svg' title='自由啊，你就想遥远的星空，渴望而不可及啊'><br> <div style="font-size:3px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/%E4%B8%8B%E7%8F%AD.svg' title='加班是不可能的啦，呜呜呜呜'><br> <div style="font-size:3px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+      : `<img class='boardsign' src='https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/%E4%B8%8B%E7%8F%AD%E4%B8%8B%E7%8F%AD.svg' title='加班是不可能的啦，呜呜呜呜'><br> <div style="font-size:3px;font-weight:bold">本站已经运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
