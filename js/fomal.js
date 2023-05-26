@@ -348,8 +348,8 @@ document.addEventListener("copy", function () {
     new Vue({
       data: function () {
         this.$notify({
-          title: "哎嘿！复制成功🍬",
-          message: "若要转载最好保留原文链接哦，给你一个大大的赞！",
+          title: "哎嘿！复制成功☕",
+          message: "若要转载最好保留原文链接哦👍️👍️👍️︎",
           position: 'top-left',
           offset: 50,
           showClose: true,
@@ -369,8 +369,8 @@ document.onkeydown = function (e) {
       new Vue({
         data: function () {
           this.$notify({
-            title: "你已被发现😜",
-            message: "小伙子，扒源记住要遵循GPL协议！",
+            title: "你已被发现👁️︎",
+            message: "很刑啊，扒源记住要遵循GPL协议！",
             position: 'top-left',
             offset: 50,
             showClose: true,
@@ -675,7 +675,7 @@ if (document.body.clientWidth > 992) {
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
         nekoImg: "https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/Q%E7%89%88%E4%BA%BA%E7%89%A9.png",
-        hoverMsg: "小笨蛋~",
+        hoverMsg: "人类，快拿小鱼干给本喵~",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
@@ -1074,7 +1074,7 @@ function changeMouseMode() {
       new Vue({
         data: function () {
           this.$notify({
-            title: "切换右键模式成功🍔",
+            title: "切换右键模式成功🏆",
             message: "当前鼠标右键已恢复为系统默认！",
             position: 'top-left',
             offset: 50,
@@ -1092,7 +1092,7 @@ function changeMouseMode() {
       new Vue({
         data: function () {
           this.$notify({
-            title: "切换右键模式成功🍔",
+            title: "切换右键模式成功🏆",
             message: "当前鼠标右键已更换为网站指定样式！",
             position: 'top-left',
             offset: 50,
@@ -1286,7 +1286,7 @@ function share_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "成功复制信息🎉",
+          title: "成功复制信息🎇",
           message: "您现在可以通过粘贴分享了！",
           position: 'top-left',
           offset: 50,
@@ -3548,3 +3548,59 @@ function toggleWinbox() {
 }
 
 /* 美化模块 end */
+
+
+// 评论区
+/* 设置文字内容 :nth-child(1)的作用是选择第几个 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
+  content: '输入QQ号会自动获取昵称和头像🐧';
+}
+
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
+  content: '收到回复将会发送到您的邮箱📧';
+}
+
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(3):before {
+  content: '可以通过昵称访问您的网站🔗';
+}
+
+/* 当用户点击输入框时显示 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::before,
+.el-input.el-input--small.el-input-group.el-input-group--prepend:focus-within::after {
+  display: block;
+}
+
+/* 主内容区 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend::before {
+  /* 先隐藏起来 */
+  display: none;
+  /* 绝对定位 */
+  position: absolute;
+  /* 向上移动60像素 */
+  top: -60px;
+  /* 文字强制不换行，防止left:50%导致的文字换行 */
+  white-space: nowrap;
+  /* 圆角 */
+  border-radius: 10px;
+  /* 距离左边50% */
+  left: 50%;
+  /* 然后再向左边挪动自身的一半，即可实现居中 */
+  transform: translate(-50%);
+  /* 填充 */
+  padding: 14px 18px;
+  background: #444;
+  color: #fff;
+}
+
+/* 小角标 */
+.el-input.el-input--small.el-input-group.el-input-group--prepend::after {
+  display: none;
+  content: '';
+  position: absolute;
+  /* 内容大小（宽高）为0且边框大小不为0的情况下，每一条边（4个边）都是一个三角形，组成一个正方形。
+  我们先将所有边框透明，再给其中的一条边添加颜色就可以实现小三角图标 */
+  border: 12px solid transparent;
+  border-top-color: #444;
+  left: 50%;
+  transform: translate(-50%, -48px);
+}
