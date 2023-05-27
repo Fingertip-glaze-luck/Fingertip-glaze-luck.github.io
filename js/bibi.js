@@ -3,7 +3,7 @@ let total = 0
 let nowNum = 0
 let items = []
 let page = 1
-let Url = 'https://kkapi.limerence-fxy.top/api/user/init?userName=Limerence-fxy' // 记住替换为你的API链接
+let Url = 'https://kkapi.limerence-fxy.top' // 记住替换为你的API链接
 
 
 window.addEventListener('DOMContentLoaded', () => {
