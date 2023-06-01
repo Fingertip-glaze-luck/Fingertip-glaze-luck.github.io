@@ -675,7 +675,7 @@ if (document.body.clientWidth > 992) {
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
         nekoImg: "https://cdn.staticaly.com/gh/Fingertip-glaze-luck/tuchuang@main/imgs/Q%E7%89%88%E4%BA%BA%E7%89%A9.png",
-        hoverMsg: "人类，快拿小鱼干给本喵~",
+        hoverMsg: "哇哦~",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
